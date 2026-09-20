@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mahavihara</title>
+    <link rel="icon" type="image/png" href="photo.png">
+</head>
+
+<body>
+ <style>
+h1 {text-align: center;
+    color: blue;
+    padding: 1px;}
+nav {
+    background-color: blue;
+    text-align:  center;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 40px;
+    font-size: 18px;
+}
+
+   
+body {
+  animation: changePhoto 12s infinite;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh; /* သို့မဟုတ် cover */
+  background-position: top center;
+}
+
+        @keyframes changePhoto {
+            0% {
+                background-image: url("photo1.jpg");
+            }
+
+            33% {
+                background-image: url("photo2.jpg");
+            }
+
+            66% {
+                background-image: url("photo3.jpg");
+            }
+
+            100% {
+                background-image: url("photo1.jpg");
+            }
+
+    </style>
+    <h1>မဟာဝိဟာရကျောင်းတိုက်<br>မှော်ဘီ</h1>
+<!-- Menu ခလုတ်များ -->
+<nav>
+    <a href="#education">ပညာရေး</a>
+	<a href="#school">ပုံရိပ်</a>
+    <a href="#photo">ဓာတ်ပုံ</a>
+    <a href="#book">စာအုပ်</a>
+  <a href="#about">အကြောင်းအရာ</a>
+</nav>
+<!-- ရောက်သွားစေချင်သော Section စာမျက်နှာများ -->
+<section id="education">
+  <h2>ပညာရေး</h2>
+  <p>ဒီမှာ ပညာရေးအကြောင်း စာများကို ရေးပါ...</p>
+</section>
+
+<section id="school">
+  <h2>ပုံရိပ်</h2>
+  <p>ဒီမှာ ပုံရိပ်အကြောင်း စာများကို ရေးပါ...</p>
+</section>
+
+<section id="photo">
+  <h2>ဓာတ်ပုံ</h2>
+  <p>ဒီမှာ ဓာတ်ပုံများကို ပြပါ...</p>
+</section>
+
+<section id="book">
+  <h2>စာအုပ်</h2>
+  <p>ဒီမှာ စာအုပ်အကြောင်း ရေးပါ...</p>
+</section>
+
+<section id="about">
+  <h2>အကြောင်းအရာ</h2>
+  <p>ဒီမှာ အကြောင်းအရာများကို ရေးပါ...</p>
+</section>
+</body>
+</html>
